@@ -1,0 +1,79 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.wrap{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+
+    button{
+        padding: 10px 30px;
+        border: none;
+        font-weight: 600;
+    }
+}
+body{
+    background-color: #282848;
+}
+.btn1{
+    background-color: lawngreen;
+    color: white;
+}
+
+.btn2{
+    border: 3px solid lawngreen !important;
+    background-color: transparent;
+    color: lawngreen;
+}
+
+.btn3{
+background-color: orange;
+color: white;
+border-radius: 10px;
+}
+.btn4{
+    background-color: transparent;
+    color: orange;
+    border-radius: 10px;
+    border: 3px solid orange !important;
+}
+
+.btn5{
+    background-color: transparent;
+    border: 3px dashed orangered !important;
+    color: orangered;
+}
+.btn5-dad{
+    background-color: orange;
+    padding: 6px;
+}
+
+.btn6{
+    background-color: transparent;
+    border-top: 1px dashed orangered !important;
+    border-bottom: 1px dashed orangered !important;
+    color: orangered;
+}
+.btn6-dad{
+    background-color: orange;
+    padding: 4px 0;
+}
+.btn7{
+    background: rgb(15,15,15);
+background: linear-gradient(90deg, rgba(15,15,15,1) 0%, rgba(34,136,8,1) 50%, rgba(0,0,0,1) 100%);
+}
+.btn8{
+    background: rgb(255,252,0);
+background: linear-gradient(135deg, rgba(255,252,0,1) 0%, rgba(255,0,0,1) 100%);
+}
+.btn9{
+    background-color: transparent;
+    color: white;
+    box-shadow: 0px 0px 5px 1px black inset;
+}
+.btn10{
+    background-color: transparent;
+    color: white;
+    box-shadow: 0px 0px 5px 1px black ;
+}
